@@ -23,7 +23,7 @@ public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionH
 
     @ExceptionHandler(DataNotFoundException.class)
     protected ResponseEntity handleEntityNotFound(HttpServletRequest request, DataNotFoundException ex) {
-        logger.error("error: {}, resource: {}", ex.getMessage(), request.getRequestURL().toString());
+        logger.error("error: {}, resource: {}", ex.getMessage(), request.getRequestURL());
         return new ResponseEntity(ex.getMessage(), HttpStatus.NOT_FOUND);
     }
 

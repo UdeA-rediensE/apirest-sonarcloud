@@ -34,8 +34,13 @@ class HeroServiceTest {
 
     @Test
     void getHero() {
+        //Arange: preparacion del entorno
         when(heroRepository.findById(1)).thenReturn(Optional.of(hero));
+
+        //Act: Ejecucion de la accion que se esta probando
         Hero result = heroService.getHero(1);
+
+        //Assert: Verificación de que el resultado de la acción es el esperado.
         assertEquals(hero, result);
     }
 

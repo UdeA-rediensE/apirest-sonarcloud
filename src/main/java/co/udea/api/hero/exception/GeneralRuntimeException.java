@@ -33,6 +33,7 @@ public class GeneralRuntimeException extends RuntimeException {
         return translationKey;
     }
 
+    @Override
     public String getMessage() {
         return message;
     }
