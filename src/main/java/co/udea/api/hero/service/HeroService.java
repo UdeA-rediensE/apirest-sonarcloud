@@ -15,7 +15,7 @@ public class HeroService {
 
     private final Logger log = LoggerFactory.getLogger(HeroService.class);
 
-    private final HeroRepository heroRepository;
+    private HeroRepository heroRepository;
 
     public HeroService(HeroRepository heroRepository) {
         this.heroRepository = heroRepository;
