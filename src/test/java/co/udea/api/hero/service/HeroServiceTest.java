@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class HeroServiceTest {
@@ -45,5 +45,37 @@ class HeroServiceTest {
         List<Hero> expected = Collections.singletonList(hero);
         List<Hero> result = heroService.getHeroes();
         assertArrayEquals(expected.toArray(), result.toArray());
+    }
+
+    @Test
+    void addHero() {
+        when(heroRepository.save(hero)).thenReturn(hero);
+        Hero result = heroService.addHero(hero);
+        assertEquals(hero, result);
+    }
+    @Test
+    void searchHeroes() {
+        String search = "man";
+        when(heroRepository.findAllByNameContainingIgnoreCase(search)).thenReturn(Collections.singletonList(hero));
+        List<Hero> expected = Collections.singletonList(hero);
+        List<Hero> result = heroService.searchHeroes(search);
+        assertArrayEquals(expected.toArray(), result.toArray());
+    }
+
+    @Test
+    void deleteHero() {
+        when(heroRepository.findById(1)).thenReturn(Optional.of(hero));
+        heroService.deleteHero(1);
+        verify(heroRepository, times(1)).deleteById(hero.getId());
+    }
+
+    @Test
+    void updateHero() {
+        Hero updatedHero = new Hero(1, "Batman");
+        when(heroRepository.findById(1)).thenReturn(Optional.of(hero));
+        when(heroRepository.save(updatedHero)).thenReturn(updatedHero);
+
+        Hero result = heroService.updateHero(updatedHero);
+        assertEquals(updatedHero, result);
     }
 }
