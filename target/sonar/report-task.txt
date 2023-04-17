@@ -1,0 +1,7 @@
+organization=esneiderssj
+projectKey=co.udea.api.hero:tour-hero-api
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.39943
+dashboardUrl=https://sonarcloud.io/dashboard?id=co.udea.api.hero%3Atour-hero-api
+ceTaskId=AYeN00Lb1LVgWM_9j_nh
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYeN00Lb1LVgWM_9j_nh
