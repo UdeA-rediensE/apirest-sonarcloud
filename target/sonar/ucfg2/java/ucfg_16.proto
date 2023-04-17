@@ -1,0 +1,131 @@
+
+tco.udea.api.hero.controller.HeroController#searchHeroes(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;ï
+äC:/Users/Sneid/Desktop/Proyecto Integrador I/Prueba final/tour-of-heroes-api/src/main/java/co/udea/api/hero/controller/HeroController.javaE& E(2"startingBlock*¯
+startingBlockE2 E(Uú
+ô
+? A("
+%5"
+__annotate*C
+
+__unknown_file ('%
+#io.swagger.annotations.ApiOperation*6
+
+__unknown_file (
+
+termjava.lang.Stringù
+ö
+	B C(≤
+%6"
+__annotate*C
+
+__unknown_file ('%
+#io.swagger.annotations.ApiResponses*6
+
+__unknown_file (
+
+termjava.lang.String†
+ù
+D D(y
+%7"
+__annotate*G
+
+__unknown_file (+)
+'io.swagger.annotations.ApiImplicitParam*6
+
+__unknown_file (
+
+termjava.lang.String≠
+™
+E3 E(H
+%8"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*6
+
+__unknown_file (
+
+termjava.lang.String≈
+¬
+EP E(T
+termjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%5*"
+
+__unknown_file (
+
+%6*"
+
+__unknown_file (
+
+%7*"
+
+__unknown_file (
+
+%8*
+1*¯
+
+1F F(
+}
+F F(
+%0org.slf4j.Logger"__id*S
+
+__unknown_file (7*5,
+*co.udea.api.hero.controller.HeroController"
+logﬂ‹
+F F(d
+
+%1void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*4
+
+__unknown_file (
+
+%0org.slf4j.Logger*l
+
+__unknown_file (PN
+LRequest GET /v1/heroes - Buscando h√©roes que coincidan con el t√©rmino '{}'*6
+
+__unknown_file (
+
+termjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)ú
+ô
+G G('*
+%2$co.udea.api.hero.service.HeroService"__id*[
+
+__unknown_file (?*=,
+*co.udea.api.hero.controller.HeroController"
+heroServiceûõ
+G G(:
+%3java.util.List"Uco.udea.api.hero.service.HeroService#searchHeroes(Ljava/lang/String;)Ljava/util/List;*H
+
+__unknown_file (,
+*
+%2$co.udea.api.hero.service.HeroService*6
+
+__unknown_file (
+
+termjava.lang.String2 searchHeroes(Ljava/lang/String;)`
+^
+G G(;
+heroesjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List¶
+£
+H H((-
+%4'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*6
+
+__unknown_file (
+
+heroesjava.util.List";
+H H()/
+-
+%4'org.springframework.http.ResponseEntity:$
+E3 E(T
+termjava.lang.StringB.,
+*co.udea.api.hero.controller.HeroControllerH

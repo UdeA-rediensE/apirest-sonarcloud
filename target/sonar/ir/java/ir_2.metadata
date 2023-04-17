@@ -1,0 +1,3 @@
+co.udea.api.hero.config.SwaggerConfig#apiInfo()Lspringfox/documentation/service/ApiInfo;
+springfox.documentation.builders.ApiInfoBuilder#instance-init#
+springfox.documentation.builders.ApiInfoBuilder#<init>()V

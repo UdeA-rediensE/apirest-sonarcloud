@@ -1,0 +1,6 @@
+co.udea.api.hero.config.SwaggerConfig#api()Lspringfox/documentation/spring/web/plugins/Docket;
+springfox.documentation.spring.web.plugins.Docket#instance-init#
+springfox.documentation.spring.web.plugins.Docket#<init>(Lspringfox/documentation/spi/DocumentationType;)V
+springfox.documentation.builders.RequestHandlerSelectors#basePackage(Ljava/lang/String;)Lcom/google/common/base/Predicate;
+springfox.documentation.builders.PathSelectors#ant(Ljava/lang/String;)Lcom/google/common/base/Predicate;
+co.udea.api.hero.config.SwaggerConfig#apiInfo()Lspringfox/documentation/service/ApiInfo;

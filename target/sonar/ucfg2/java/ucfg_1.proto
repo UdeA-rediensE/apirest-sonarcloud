@@ -1,0 +1,50 @@
+
+Xco.udea.api.hero.config.SwaggerConfig#apiInfo()Lspringfox/documentation/service/ApiInfo;ê
+ÖC:/Users/Sneid/Desktop/Proyecto Integrador I/Prueba final/tour-of-heroes-api/src/main/java/co/udea/api/hero/config/SwaggerConfig.java ("1*§
+1 (#tr
+ (!5
+%0/springfox.documentation.builders.ApiInfoBuilder"/springfox.documentation.builders.ApiInfoBuilder£
+†
+ (#
+%1"9springfox.documentation.builders.ApiInfoBuilder#<init>()V*S
+
+__unknown_file (7
+5
+%0/springfox.documentation.builders.ApiInfoBuilder‰·
+ (,5
+%2/springfox.documentation.builders.ApiInfoBuilder"zspringfox.documentation.builders.ApiInfoBuilder#title(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*S
+
+__unknown_file (7
+5
+%0/springfox.documentation.builders.ApiInfoBuilder*2
+
+__unknown_file (
+Tour of Heroes API2title(Ljava/lang/String;)˘ˆ
+  (:5
+%3/springfox.documentation.builders.ApiInfoBuilder"Äspringfox.documentation.builders.ApiInfoBuilder#description(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*S
+
+__unknown_file (7
+5
+%2/springfox.documentation.builders.ApiInfoBuilder*:
+
+__unknown_file (
+API para el Tour of Heroes2description(Ljava/lang/String;)Ÿ÷
+ !(5
+%4/springfox.documentation.builders.ApiInfoBuilder"|springfox.documentation.builders.ApiInfoBuilder#version(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*S
+
+__unknown_file (7
+5
+%3/springfox.documentation.builders.ApiInfoBuilder*#
+
+__unknown_file (
+1.02version(Ljava/lang/String;)¸˘
+ "(-
+%5'springfox.documentation.service.ApiInfo"`springfox.documentation.builders.ApiInfoBuilder#build()Lspringfox/documentation/service/ApiInfo;*S
+
+__unknown_file (7
+5
+%4/springfox.documentation.builders.ApiInfoBuilder2build()";
+ "(/
+-
+%5'springfox.documentation.service.ApiInfoB)'
+%co.udea.api.hero.config.SwaggerConfig

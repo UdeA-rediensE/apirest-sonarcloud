@@ -1,0 +1,4 @@
+co.udea.api.hero.service.HeroService#deleteHero(Ljava/lang/Integer;)V
+java.util.Optional#isPresent()Z
+co.udea.api.hero.exception.DataNotFoundException#<init>(Ljava/lang/String;)V
+co.udea.api.hero.exception.DataNotFoundException#instance-init#

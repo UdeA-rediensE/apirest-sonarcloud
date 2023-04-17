@@ -1,0 +1,2 @@
+co.udea.api.hero.controller.HeroController#deleteHero(Ljava/lang/Integer;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#noContent()Lorg/springframework/http/ResponseEntity$HeadersBuilder;

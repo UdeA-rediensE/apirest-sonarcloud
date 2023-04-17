@@ -1,0 +1,6 @@
+co.udea.api.hero.service.HeroService#updateHero(Lco/udea/api/hero/model/Hero;)Lco/udea/api/hero/model/Hero;
+java.util.Optional#isPresent()Z
+co.udea.api.hero.exception.DataNotFoundException#<init>(Ljava/lang/String;)V
+co.udea.api.hero.exception.DataNotFoundException#instance-init#
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#

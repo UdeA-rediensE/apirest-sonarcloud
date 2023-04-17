@@ -1,0 +1,3 @@
+co.udea.api.hero.service.HeroService#addHero(Lco/udea/api/hero/model/Hero;)Lco/udea/api/hero/model/Hero;
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#

@@ -1,0 +1,27 @@
+
+Uco.udea.api.hero.service.HeroService#searchHeroes(Ljava/lang/String;)Ljava/util/List;è
+ÑC:/Users/Sneid/Desktop/Proyecto Integrador I/Prueba final/tour-of-heroes-api/src/main/java/co/udea/api/hero/service/HeroService.java+ +(""1*™
+1, ,(ü
+ú
+, ,(0
+%0*co.udea.api.hero.repository.HeroRepository"__id*X
+
+__unknown_file (<*:&
+$co.udea.api.hero.service.HeroService"
+heroRepository‘—
+, ,(E
+%1java.util.List"pco.udea.api.hero.repository.HeroRepository#findAllByNameContainingIgnoreCase(Ljava/lang/String;)Ljava/util/List;*N
+
+__unknown_file (2
+0
+%0*co.udea.api.hero.repository.HeroRepository*6
+
+__unknown_file (
+
+termjava.lang.String25findAllByNameContainingIgnoreCase(Ljava/lang/String;)""
+, ,(F
+
+%1java.util.List:$
++# +(.
+termjava.lang.StringB(&
+$co.udea.api.hero.service.HeroServiceH

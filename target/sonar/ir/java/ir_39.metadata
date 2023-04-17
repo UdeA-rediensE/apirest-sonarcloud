@@ -1,0 +1,4 @@
+co.udea.api.hero.exception.RestResponseEntityExceptionHandler#handleEntityNotFound(Ljavax/servlet/http/HttpServletRequest;Lco/udea/api/hero/exception/DataNotFoundException;)Lorg/springframework/http/ResponseEntity;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+org.springframework.http.ResponseEntity#instance-init#
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V
