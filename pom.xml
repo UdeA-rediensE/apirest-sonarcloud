@@ -24,6 +24,8 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
     <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+    <sonar.organization>esneiderssj</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <dependencies>
