@@ -1,4 +1,4 @@
-# Tour Of Hero Api
+# Pruebas de sonarcloud con Tour Of Hero Api
 Esta es una API REST para administrar una lista de héroes. Está construida con Java 17 y utiliza Spring Boot como framework.
 
 ## Configuración
